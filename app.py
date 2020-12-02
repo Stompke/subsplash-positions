@@ -15,8 +15,8 @@ response = requests.get("https://boards.greenhouse.io/embed/job_board?for=subspl
 
 
 message = Mail(
-    from_email='shawntompke@gmail.com',
-    to_emails='info@topdogsites.com',
+    from_email='info@topdogsites.com',
+    to_emails='shawntompke@gmail.com',
     subject='Hello There! :)',
     html_content=response.text)
 try:
