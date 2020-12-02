@@ -6,7 +6,6 @@ import os
 from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail
 
-from dotenv import load_dotenv
 SECRET_KEY = os.getenv("SENDGRID_API_KEY")
 
 
